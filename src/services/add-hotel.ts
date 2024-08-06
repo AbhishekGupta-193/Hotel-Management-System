@@ -1,10 +1,14 @@
-import { HotelManagementSystem } from "../model/hotel-management-system";
 import { Hotel } from "../model/hotel";
 
-const system=new HotelManagementSystem;
+export const Hotels_Data:Hotel[]=[];
 
 const hotel1=new Hotel('Tulips','Koramangala');
 const hotel2=new Hotel('IBIS','Bommanahali');
 
-system.addHotel(hotel1);
-system.addHotel(hotel2);
+// console.log(typeof(Hotels_Data));
+
+Hotels_Data.push(hotel1);
+Hotels_Data.push(hotel2);
+
+
+

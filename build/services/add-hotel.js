@@ -1,9 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const hotel_management_system_1 = require("../model/hotel-management-system");
+exports.Hotels_Data = void 0;
 const hotel_1 = require("../model/hotel");
-const system = new hotel_management_system_1.HotelManagementSystem;
+exports.Hotels_Data = [];
 const hotel1 = new hotel_1.Hotel('Tulips', 'Koramangala');
 const hotel2 = new hotel_1.Hotel('IBIS', 'Bommanahali');
-system.addHotel(hotel1);
-system.addHotel(hotel2);
+// console.log(typeof(Hotels_Data));
+exports.Hotels_Data.push(hotel1);
+exports.Hotels_Data.push(hotel2);

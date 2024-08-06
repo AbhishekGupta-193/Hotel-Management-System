@@ -1,5 +1,4 @@
-import {Hotel} from '../model/hotel';
+import { Hotels_Data } from './add-hotel';
 
+console.log("List Of Hotels are as follows :",Hotels_Data);
 
-const Hotel1=new Hotel('Tulips','Banaglore');
-console.log(Hotel1);
